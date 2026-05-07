@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');  
+  
+*{ box-sizing:border-box; }
+img {max-width:100%; }
+
+/*universal*/
+body{
+  padding: 0;
+  font-family: "Raleway";
+    color: #1e1e1e;
+    font-size: 1.25rem;
+    max-width: 80dvw;
+    line-height: 1.55rem;
+    margin: 5dvh auto
+}
+
+h1, h2, h3, h6, b{
+  color: #113c2e;
+  font-family: "Josefin Sans";
+}
+h1{
+  text-align: center;
+}
+
+html{scroll-behavior:smooth}
+
+a {
+    color: #285f7f;
+  }
+a:hover {
+    color: #478ab1;
+  }
+.grid{
+  display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 2dvw;
+    row-gap: 5dvh;
+    margin: auto;
+    justify-content: center;
+    max-width: 1600px;
+}
+.flip{
+    grid-column: span 1;
+    justify-self: center;
+  }
+.flop{
+    grid-column:span 2;
+    justify-self: center;
+  }
+
+p{
+  line-height: 1.75rem;
+  padding: 1dvh 0;
+}
+
+ul p{
+  padding: 0;
+}
+#disclaimer{
+  font-size: .7rem;
+  line-height: .8rem;
+}
